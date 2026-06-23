@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #1e1e1e;
+  color: #ddd;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+#toolbar {
+  display: flex;
+  gap: 6px;
+  padding: 6px;
+}
+
+button {
+  background: #333;
+  color: #ddd;
+  border: 1px solid #555;
+  border-radius: 3px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+#curve-canvas {
+  background: #000;
+  display: block;
+  margin: 0 auto;
+  cursor: crosshair;
+}
+
+#status {
+  padding: 6px;
+  opacity: 0.7;
+}

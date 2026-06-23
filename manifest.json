@@ -1,0 +1,34 @@
+{
+  "id": "com.everhaeren.elikhopter",
+  "name": "Elikhopter",
+  "version": "0.1.0",
+  "main": "client/index.html",
+  "manifestVersion": 5,
+  "host": [
+    {
+      "app": "AEFT",
+      "minVersion": "24.0.0"
+    }
+  ],
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "elikhopter.panel.main",
+      "label": {
+        "default": "Elikhopter"
+      },
+      "minimumSize": { "width": 320, "height": 240 },
+      "maximumSize": { "width": 2000, "height": 2000 },
+      "preferredDockedSize": { "width": 420, "height": 600 },
+      "preferredFloatingSize": { "width": 420, "height": 600 },
+      "icons": []
+    }
+  ],
+  "requiredPermissions": {
+    "localFileSystem": "request",
+    "ipc": {
+      "enablePluginCommunication": false
+    }
+  },
+  "icons": []
+}
